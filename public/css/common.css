@@ -1,0 +1,64 @@
+table{
+	border-collapse: separate;
+	border-spacing: 0px 5px;
+	margin: 0 auto;
+}
+td,th{
+	padding: 10px;
+}
+th{
+	background: #10a0e0;
+	color: #fff;
+}
+td{
+	background: #f1fafe;
+}
+
+.len100{
+	width: 100px;
+}
+
+.len300{
+	width: 300px;
+}
+
+.len400{
+	width: 400px;
+}
+
+/* パンくず */
+.breadcrumb {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.error {
+
+	color: red;
+}
+
+.breadcrumb li {
+	display: inline;/*横に並ぶように*/
+	list-style: none;
+	font-weight: bold;/*太字*/
+}
+
+.breadcrumb li:after {/* >を表示*/
+	content: '>';
+	padding: 0 0.2em;
+	color: #555;
+}
+
+.breadcrumb li:last-child:after {
+	content: '';
+}
+
+.breadcrumb li a {
+	text-decoration: none;
+	color: #52b5ee;/*色*/
+}
+
+.breadcrumb li a:hover {
+	text-decoration: underline;
+}

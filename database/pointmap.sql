@@ -1,0 +1,39 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.0
+-- https://www.phpmyadmin.net/
+--
+-- ホスト: 127.0.0.1
+-- 生成日時: 2021-07-07 11:03:45
+-- サーバのバージョン： 10.4.18-MariaDB
+-- PHP のバージョン: 8.0.5
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- データベース: `cms`
+--
+
+--
+-- テーブルのデータのダンプ `pointmap`
+--
+
+INSERT INTO `pointmap` (`id`, `place_name`, `lat`, `lng`, `ride_flag`, `ride_time`, `created_at`, `updated_at`) VALUES
+(1, '博多駅', 33.590188, 130.420685, 1, '09:00:00', '2021-06-28 00:44:41', '2021-06-28 00:44:47'),
+(2, '天神駅', 33.5899816, 130.3989673, 1, '15:00:00', '2021-06-28 00:44:41', '2021-06-28 00:44:47'),
+(3, '吉塚駅', 33.606543, 130.423668, 1, '15:35:00', '2021-06-28 00:53:35', '2021-06-28 00:53:35'),
+(4, '渡辺通駅', 33.5841296, 130.4047506, 1, '15:25:00', '2021-06-28 00:53:35', '2021-06-28 00:53:35'),
+(5, '呉服町駅', 33.5977621, 130.4094498, 1, '15:45:00', '2021-06-28 00:53:35', '2021-06-28 00:53:35'),
+(6, '東比恵駅', 33.5899014, 130.431309, 1, '12:45:00', '2021-06-28 00:53:35', '2021-06-28 00:53:35');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
